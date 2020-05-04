@@ -1,2 +1,4 @@
 # TryHackMe_Notes
-My notes for the TryHackMe rooms
+My personal notes for the TryHackMe rooms.
+
+https://tryhackme.com
