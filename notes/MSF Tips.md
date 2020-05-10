@@ -1,3 +1,10 @@
+---
+tags: [Tips]
+title: MSF_Tips
+created: '2020-05-04T19:21:28.632Z'
+modified: '2020-05-10T16:22:01.364Z'
+---
+
 # Metasploit Framework Tips
 
 Initialize the Metasploit Framework database:
