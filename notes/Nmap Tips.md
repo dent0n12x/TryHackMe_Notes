@@ -2,7 +2,7 @@
 tags: [Tips]
 title: Nmap Tips
 created: '2020-05-10T14:04:09.380Z'
-modified: '2020-05-10T16:22:04.587Z'
+modified: '2020-05-15T19:42:24.007Z'
 ---
 
 # Nmap Tips
@@ -65,6 +65,13 @@ Do not perform DNS resolution
 
 ```
 -n
+```
+
+Perform specific scripts
+
+```
+--script <name_of_the_script>
+--script vuln
 ```
 
 

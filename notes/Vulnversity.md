@@ -1,7 +1,8 @@
 ---
+tags: [Rooms]
 title: Vulnversity
 created: '2020-05-10T16:09:08.192Z'
-modified: '2020-05-10T21:58:37.303Z'
+modified: '2020-05-15T23:01:01.677Z'
 ---
 
 # Vulnversity
@@ -52,8 +53,6 @@ http://<IP>:3333/internal/uploads/<path-to-shell>
 
 User flag is found at /home/bill/user.txt
 
-`8bd7992fbe8a6ad22a63361004cfcedb`
-
 Search for files with the SUID bit enabled starting on / and redirect the errors to /dev/null
 
 ```
@@ -92,6 +91,4 @@ Inside the unit file we entered a command which will let shell execute the comma
 ```
 
 Finally we read the contents of the file **/etc/output**
-
-`a58ff8579f0a9270368d33a9966c7fd5`
 

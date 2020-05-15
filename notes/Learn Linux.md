@@ -1,3 +1,10 @@
+---
+tags: [Rooms]
+title: Learn Linux
+created: '2020-05-03T16:11:49.127Z'
+modified: '2020-05-15T23:00:38.388Z'
+---
+
 # Learn Linux
 
 Search for files owned by a given user starting on / and redirect the errors to /dev/null:
@@ -23,5 +30,3 @@ Read the file /root/root.txt as the root user using sudo:
 ```
 sudo cat /root/root.txt
 ```
-
-`Flag: ad91979868d06e19d8e8a9c28be56e0c`
