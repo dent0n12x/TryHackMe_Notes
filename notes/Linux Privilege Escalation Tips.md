@@ -3,10 +3,18 @@ pinned: true
 tags: [Tips]
 title: Linux Privilege Escalation Tips
 created: '2020-05-03T16:33:51.947Z'
-modified: '2020-05-15T19:04:41.708Z'
+modified: '2020-05-16T22:27:21.749Z'
 ---
 
 # Linux Privilege Escalation Tips
+
+See the permissions that the user has to execute **sudo**
+
+```
+sudo -l
+```
+
+---
 
 Search for files owned by a given user starting on / and redirect the errors to /dev/null
 
